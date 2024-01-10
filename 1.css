@@ -1,0 +1,127 @@
+.navbar {
+    background-color: transparent;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #fcfcfc; /* Set the overall border for the navbar */
+    margin: 3 5;
+}
+
+.navbar a {
+    display: inline-block;
+    color: #17025c;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    margin: 3 3px;
+    border-width: 1px 5px; /* Set the top and bottom borders to 1px and left-right borders to 5px */
+    border-radius: 9px;
+}
+
+.navbar a:hover {
+    background-color: #bf3030;
+    color: rgb(255, 255, 255);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+.card{
+    max-width: 1100;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.card h1{
+    font-size: 40px;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.Services{
+    display: flex;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 20px; /* box k beech me space yani margine yaha se di gye hai*/
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    transition: all .3s ease;
+}
+.content .fab{
+    font-size: 70px;
+    margin: 16px 0;
+}
+.content > *{
+    flex: 1 1 100%;
+
+}
+.content:hover{
+    color: white; /* ye hover*/
+}
+.contenthover a{
+    background-color: white;
+    background: white;
+}
+.content-1:hover{
+    border-color: #1da1f2;
+    background: #1da1f2;
+}
+.content-1:hover a{
+    color: #1da1f2;
+}
+
+.content-2:hover{
+    border-color: #e1306c;
+    background: #e1306c;
+}
+.content-2:hover a{
+    color: #e1306c;
+}
+
+.content-3:hover{
+    border-color: palevioletred;
+    background: palevioletred;
+}
+.content-3:hover a{
+    color: palevioletred;
+}
+
+.content h2{
+    font-size: 30px;
+    margin: 16px 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.content p{
+    font-size: 17px;
+    font-family: 'poppins' ,sans-serif;
+    letter-spacing: 0.5;
+}
+.content a{
+    margin: 22px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 15px 0;
+    border-radius: 20px;
+    transition: .3s ease;
+}
+.content a:hover{
+    border-radius: 8px;
+    color: #bf3030;
+}
+@media (max-width: 900px) {
+    .Services{
+        display: flex;
+        flex-direction: column;
+    }
+}
